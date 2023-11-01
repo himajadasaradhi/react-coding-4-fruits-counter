@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-color: white;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border-width: 0px;
+  margin: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+h1 {
+  font-family: 'roboto';
+}
+span {
+  color: #ffd569;
+}
